@@ -1,0 +1,37 @@
+[
+  {
+    "name": "hubspot_crm_sync",
+    "description": "يستدعى لربط ومزامنة بيانات العملاء والمبيعات مع HubSpot وعرض شاشة إدخال التوكن.",
+    "input_variables": [
+      {"name": "api_key", "description": "توكن الوصول لحساب HubSpot", "required": true}
+    ]
+  },
+  {
+    "name": "replit_code_execution",
+    "description": "يستخدم لتشغيل، تجربة، أو بناء الأكواد البرمجية حياً ومباشرة داخل بيئة Replit السحابية.",
+    "input_variables": [
+      {"name": "code_snippet", "description": "شفرة الكود المراد تشغيلها", "required": true}
+    ]
+  },
+  {
+    "name": "zapier_trigger_workflow",
+    "description": "يستخدم لأتمتة المهام وربط التطبيقات ببعضها عن طريق إطلاق الـ Zap الذكي في Zapier.",
+    "input_variables": [
+      {"name": "webhook_url", "description": "رابط الويب هوك الخاص بـ Zapier", "required": true}
+    ]
+  },
+  {
+    "name": "clickup_task_manager",
+    "description": "يستخدم لإنشاء وتحديث المهام وجداول العمل داخل مشروعك في منصة ClickUp.",
+    "input_variables": [
+      {"name": "task_title", "description": "عنوان المهمة الجديدة", "required": true}
+    ]
+  },
+  {
+    "name": "genspark_ai_search",
+    "description": "يستدعى لعمل بحث متقدم وتوليد تقارير ذكية مخصصة وسحب المعرفة باستخدام محرك Genspark.",
+    "input_variables": [
+      {"name": "search_query", "description": "نص البحث المتقدم المراد استخراجه", "required": true}
+    ]
+  }
+]
