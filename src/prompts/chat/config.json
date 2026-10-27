@@ -1,0 +1,26 @@
+{
+  "schema": "1.1",
+  "description": "إعدادات الأمان ومحددات المخاطر لـ Folder Without Border لحماية المزامنة البنكية والمحافظ",
+  "type": "completion",
+  "security_configuration": {
+    "access_control_model": "Capability-Based",
+    "enforce_runtime_validation": true,
+    "prevent_superuser_privileges": true,
+    "threat_mitigation": {
+      "prompt_injection_guard": true,
+      "tool_output_validation": true,
+      "audit_logging_active": true
+    },
+    "risk_boundaries": {
+      "max_automatic_transaction_usd": 50.00,
+      "requires_human_confirmation": true
+    }
+  },
+  "completion": {
+    "max_tokens": 1200,
+    "temperature": 0.1,
+    "top_p": 0.9,
+    "presence_penalty": 0.0,
+    "frequency_penalty": 0.1
+  }
+}
